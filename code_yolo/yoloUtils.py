@@ -67,7 +67,7 @@ import torch
 
 def load_model():
     # Load the YOLOv5 model
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path='code_yolo/models/yolov5s_best.pt', force_reload=True)
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path='/PV2DOC/code_yolo/models/yolov5s_best.pt', force_reload=True)
     # Set the model to evaluation mode
     model.eval()
 
